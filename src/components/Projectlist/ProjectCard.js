@@ -16,8 +16,7 @@ function ProjectCard(props) {
         <Button className="viewbtn"  href={props.ghLink} target="_blank">
           View
         </Button>
-        {"\n"}
-        {"\n"}
+      
 
 
         {/* {!props.isBlog && props.demoLink && (

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Aboutpage from '../components/Aboutpage/Aboutpage'
+import { Footer } from '../components/Footer'
 
 
 function About() {
@@ -8,6 +9,7 @@ function About() {
     <div>
       <Header />
       <Aboutpage />
+      {/* <Footer/> */}
     </div>
   )
 }
