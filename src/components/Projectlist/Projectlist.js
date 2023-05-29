@@ -2,9 +2,9 @@ import React from 'react'
 import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
-import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
-import netfliximage from '../../Assets/React-App-netflix-clone.png'
+import dashboard1 from '../../Assets/dashboard1.png';
+import trello1 from '../../Assets/trello1.png';
+import fileupload1 from '../../Assets/fileupload1.png';
 
 function Projectlist() {
   return (
@@ -24,35 +24,36 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={dashboard1}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="#"
+                title="Dashboard"
+                description="
+                A dashboard web application built with React.js is a user interface that provides a visual representation of various data and metrics in a concise and organized manner. It typically offers a summary of key information, statistics, and insights for a specific domain or set of data."
+                ghLink="https://github.com/Pushpagtm/Dashboard"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={trello1}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="#"
-              />
-            </Col>
-{/* 
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={gridlinesbuilders}
-                isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
+                title="Trello-Clone"
+                description="A Trello clone is a web application designed to replicate the functionality and features of Trello, a popular project management tool. It allows users to create  lists, and cards to organize tasks and projects visually"
+                ghLink="https://github.com/Pushpagtm/Trello_Clone"
               />
             </Col>
 
             <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={fileupload1}
+                isBlog={false}
+                title="File upload System"
+                description="A file upload system is a software component or feature that enables users to upload files from their local devices to a server or storage system. It facilitates the transfer of files, such as documents, images, videos, or any other type of file, to a designated location for storage, processing, or sharing purposes."
+                ghLink="https://github.com/Pushpagtm/File_Upload_System"
+              />
+            </Col>
+
+            {/* <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={charlespizza}
                 isBlog={false}
