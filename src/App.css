@@ -13,6 +13,7 @@ html {
   padding: 0;
  
 }
+
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -46,7 +47,7 @@ html {
 
 .cursor {
   background-color: #191919;
-  opacity: 0.6;
+  /* opacity: 0.6; */
   height: 18px;
   width: 18px;
   border-radius: 50%;

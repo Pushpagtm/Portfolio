@@ -1,13 +1,16 @@
 import React from 'react';
+import { MDBFooter } from 'mdb-react-ui-kit';
 
 export const Footer = () => {
   return (
-   <Footer>
-    <div>
-          <small className="ms-2">&copy; Devwares, 2023. All rights reserved.</small>
-        </div>
-
-   </Footer>
+    <MDBFooter bgColor='light' className='text-center text-lg-left'>
+    <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      &copy; {new Date().getFullYear()} Copyright:
+      <a className='text-dark' href='https://portfolio.com/'>
+        portfolio.com
+      </a>
+    </div>
+  </MDBFooter>
         
         
         

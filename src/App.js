@@ -4,6 +4,7 @@ import Home from './pages/Home.js'
 import About from './pages/About'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Project from './pages/Project';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           </Routes>
          
         </div>
+        <Footer/>
        
       </Router>
     </div>

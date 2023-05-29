@@ -9,6 +9,8 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import About from '../../pages/About';
 import Project from '../../pages/Project';
+import Parallax from '../Parallax';
+
 
 function Home() {
   return (
@@ -45,6 +47,8 @@ function Home() {
     </div>
     <About/>
     <Project/>
+    <Parallax/>
+    
     </>
   )
 }

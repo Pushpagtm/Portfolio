@@ -1,14 +1,12 @@
 import React from 'react'
-import Header from '../components/Header/Header'
-import Homepage from '../components/Homepage/Homepage'
-import { Footer } from '../components/Footer'
-
+import Header from '../components/Header/Header';
+import Homepage from '../components/Homepage/Homepage';
 function Home() {
   return (
     <div>
       <Header />
       <Homepage />
-      {/* <Footer/> */}
+      
     </div>
   )
 }
