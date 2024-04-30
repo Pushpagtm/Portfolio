@@ -12,12 +12,16 @@ function Aboutpage() {
               About <span>Me</span>
             </h3>
             <p className="aboutdetails">
-              I'm a self-taught Front End developer. I build websites with a
-              focus on providing the experience for everyone using them and
-              responsiveness. Curious to learn more about developing scalable
-              distribution systems, and care about writing and maintainable
-              code. A responsive design makes your website accessible to all
-              users, regardless of their devices.
+              Transitioning web developer ready to excel in a hybrid role as a
+              developer and analyst. Ready to leverage my expertise in web
+              development to craft innovative and user-friendly websites while
+              also delving into data analysis to inform strategic decisions.
+              Committed to remaining updated on emerging web technologies and
+              harnessing analytical tools to optimize website performance and
+              user experience. Equipped with strong problem-solving abilities
+              and a collaborative mindset, adept at working in cross-functional
+              teams to deliver high-quality solutions that surpass client
+              expectations.
             </p>
             <ul className="skilllist">
               <Row>
