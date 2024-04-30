@@ -1,10 +1,12 @@
-import React from 'react'
-import '../../pages/style.css';
+import React from "react";
+import "../../pages/style.css";
 import ProjectCard from "./ProjectCard";
-import { Container, Row, Col } from 'react-bootstrap'
-import dashboard1 from '../../Assets/dashboard1.png';
-import trello1 from '../../Assets/trello1.png';
-import fileupload1 from '../../Assets/fileupload1.png';
+import { Container, Row, Col } from "react-bootstrap";
+import dashboard1 from "../../Assets/dashboard1.png";
+import dhm from "../../Assets/dhm.png";
+
+import trello1 from "../../Assets/trello1.png";
+import fileupload1 from "../../Assets/fileupload1.png";
 
 function Projectlist() {
   return (
@@ -12,7 +14,17 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-           
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={dhm}
+                isBlog={false}
+                title="Data Visualization of Hydrology and Metrology Data"
+                description="
+               
+       Developed a dynamic data visualization project for the Department of Hydrology and Meteorology to improve data accessibility and interpretation. Utilized React with TypeScript and React Query for responsive UI, Observable for real-time updates, and D3.js for intuitive meteorological data representation. Integrated geospatial data for accuracy and geographical insights.
+                "
+              />
+            </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
@@ -44,12 +56,10 @@ function Projectlist() {
                 ghLink="https://github.com/Pushpagtm/File_Upload_System"
               />
             </Col>
-
-           
           </Row>
         </Container>
       </Container>
     </div>
-  )
+  );
 }
-export default Projectlist
+export default Projectlist;
