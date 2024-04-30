@@ -22,18 +22,27 @@ function Aboutpage() {
             <ul className="skilllist">
               <Row>
                 <h3>Skills</h3>
-                <Col md={7}>
+                <Col md={4}>
                   <li>HTML5/CSS3</li>
                   <li>JavaScript</li>
                   <li>Bootsrap 5</li>
                   <li>Python</li>
                 </Col>
-                <Col md={5}>
+                <Col md={4}>
                   <li>React Js</li>
                   <li>Next Js</li>
                   <li>React-Bootsrap</li>
-                  <li>Jupyter-notebook</li>
                   <li>Git/Github</li>
+                </Col>
+                <Col md={4}>
+                  <li>Python tools</li>
+                  <li>Jupyter Notebook</li>
+                  <li>Pandas</li>
+                  <li>NumPy</li>
+                  <li>Matplotlib</li>
+                  <li>Seaborn</li>
+                  <li>Scikit-learn</li>
+                  <li>geoPandas</li>
                 </Col>
               </Row>
             </ul>
