@@ -14,7 +14,7 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={dhm}
                 isBlog={false}
@@ -26,7 +26,7 @@ function Projectlist() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={dashboard1}
                 isBlog={false}
@@ -37,7 +37,7 @@ function Projectlist() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={trello1}
                 isBlog={false}
@@ -47,7 +47,7 @@ function Projectlist() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={fileupload1}
                 isBlog={false}
